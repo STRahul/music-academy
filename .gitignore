@@ -19,8 +19,6 @@
 # misc
 .DS_Store
 *.pem
-/src/app
-/src/components
 
 # debug
 npm-debug.log*
