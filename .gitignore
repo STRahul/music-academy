@@ -19,7 +19,10 @@
 # misc
 .DS_Store
 *.pem
-/src
+/src/app
+/src/components
+/src/data
+/src/utils
 # debug
 npm-debug.log*
 yarn-debug.log*
