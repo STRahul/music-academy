@@ -1,9 +1,9 @@
 import Navbar from "@/components/navbar";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`dark ${inter.className}`}>
+      <body className={`dark`}>
         <div className="relative w-full flex items-center justify-center ">
           <Navbar />
         </div>
